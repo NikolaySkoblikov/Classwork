@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 700px;
     position: relative;
 }
 
@@ -13,11 +13,11 @@
 
 .plane {
     position: absolute;
-    bottom: 250px;
+    bottom: 270px;
     left: 180px;
     width: 50px;
     transition: transform 3s ease-in-out;
-    transition-delay: 1s;
+    transition-delay: 2s;
 }
 
 .content:hover .plane {
@@ -33,7 +33,7 @@
 }
 
 .plane:nth-child(3) {
-    transition-delay: .4s;
+    transition-delay: .2s;
 }
 
 .content:hover .plane:nth-child(3) {
@@ -41,7 +41,7 @@
 }
 
 .plane:nth-child(4) {
-    transition-delay: .6s;
+    transition-delay: .2s;
 }
 
 .content:hover .plane:nth-child(4) {
@@ -49,7 +49,7 @@
 }
 
 .plane:nth-child(5) {
-    transition-delay: .8s;
+    transition-delay: .2s;
 }
 
 .content:hover .plane:nth-child(5) {
