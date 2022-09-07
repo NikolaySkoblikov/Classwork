@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 600px;
     position: relative;
 }
 
@@ -13,9 +13,9 @@
 
 .plane {
     position: absolute;
-    bottom: 300px;
+    bottom: 180px;
     left: 180px;
-    width: 50px;
+    width: 180px;
     transition: transform 3s ease-in-out;
     transition-delay: 2s;
 }
