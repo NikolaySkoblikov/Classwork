@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(199, 247, 255);
+    background-color: rgb(229, 199, 255);
 }
 
 .under {
@@ -7,11 +7,11 @@ body {
 }
 
 p {
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 h3 {
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 h3:target {
@@ -35,9 +35,9 @@ a:active {
 .links {
     display: inline-block;
     background-color: white;
-    height: 145px;
+    height: 155px;
     width: 170px;
-    border: solid 1px;
+    border: solid 3px;
 }
 
 .backgorund-links {
